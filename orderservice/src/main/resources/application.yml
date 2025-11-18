@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: orderservice
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_building_ms_spring_boot_spring_cloud_cdgmf?useSSl=false&createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: root
+    password: 3md*ruTuch7D7ub
+
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl:
+        auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        show-sql: true
